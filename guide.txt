@@ -1,0 +1,9 @@
+=====================================
+===== Battery Honey Installation Guide ====
+=====================================
+> Put batteryhoney in /vendor/bin           =
+> Put init.kaminari.rc in /vendor/etc/init      =
+> Paste batteryhoney-denials in             =
+> /vendor/etc/selinux/vendor_sepolicy.cil     =
+> Completed                                =
+=====================================

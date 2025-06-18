@@ -1,0 +1,10 @@
+service batteryhoney_service /vendor/bin/batteryhoney
+    class late_start
+    user root
+    group root system
+    seclabel u:r:init:s0
+    oneshot
+    disabled
+
+on property:sys.boot_completed=1
+    start batteryhoney_service
