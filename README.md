@@ -1,6 +1,6 @@
 # BatteryHoney - Native ROM Integration (Rust)
 
-BatteryHoney is a lightweight background service written in Rust for Android ROMs. It optimizes power usage by adjusting CPU frequency based on screen state.
+BatteryHoney is a lightweight background service written in Rust for Android ROMs. It optimizes power usage by adjusting CPU frequency based on screen state. its AIM for better battery saves when screen off.
 
 ## Description
 
